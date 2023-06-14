@@ -1,3 +1,5 @@
+/* eslint-disable no-multi-assign */
+// eslint-disable-next-line no-undef
 const routes = (handler) = (handler) => [
   {
     method: 'POST',
