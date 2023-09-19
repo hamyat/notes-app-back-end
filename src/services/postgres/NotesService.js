@@ -108,7 +108,7 @@ class NotesService {
     }
   }
 
-  async verifyNoteAcces(noteId, userId) {
+  async verifyNoteAccess(noteId, userId) {
     try {
       await this.verifyNoteOwner(noteId, userId);
     } catch (error) {
