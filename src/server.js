@@ -59,13 +59,11 @@ const init = async () => {
     },
     validate: (artifacts) => ({
       isValid: true,
-      credenetials: {
+      credentials: {
         id: artifacts.decoded.payload.id,
       },
     }),
   });
-
-  // server.route(routes);
 
   await server.register([
     {
